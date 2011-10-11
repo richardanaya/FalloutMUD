@@ -11,7 +11,8 @@ server.get('/favicon.ico',
 
 server.get(/^.*$/,
     function(req, res) {
-        res.render('index.jinjs',{ name: "Richard", languages: [{name:"English",code:"en"},{name:"Spanish",code:"es"}] });
+        res.redirect('index.html');
+        //res.render('index.jinjs',{ name: "Richard", languages: [{name:"English",code:"en"},{name:"Spanish",code:"es"}] });
     }
 );
 
