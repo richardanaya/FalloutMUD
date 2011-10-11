@@ -1,0 +1,22 @@
+html {
+        background: url(images/frame_corner_top_left.png) no-repeat top left, url(images/frame_corner_bottom_left.png) no-repeat bottom left, url(images/frame_corner_bottom_right.png) no-repeat bottom right, url(images/frame_corner_top_right.png) no-repeat top right, url(images/frame_top.png) repeat-x top, url(images/frame_left.png) repeat-y left, url(images/frame_right.png) repeat-y right, url(images/frame_bottom.png) repeat-x bottom, url(images/terminal_background.png) no-repeat center center fixed;
+   
+        background-size: auto, auto, auto, auto, auto, auto, auto, auto,cover;
+}
+
+body {
+    margin: 100px 150px;
+    font-family: VT323;
+    color: #30da77;
+    font-size: 30px;
+}
+
+a {
+    color: #30da77;
+}
+
+.screen {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}

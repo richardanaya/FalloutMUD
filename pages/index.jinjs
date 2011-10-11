@@ -1,0 +1,8 @@
+{% extends "base.jinjs" %}
+{% block title %}My Website{% endblock %}
+{% block content %}
+Welcome to my website. Hello {{name}}!<br/><br/>
+{% for lang in languages %}
+{{lang.name}} - {{lang.code}}<br/>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,11 @@
+<html>
+    <head>
+	<title>{% block title %}{% endblock %}</title>
+	<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="/css/site.css" />
+	<script type="text/javascript" src="/js/jquery.js"></script>
+    </head>
+    <body>
+	{% block content %}{% endblock %}
+    </body>
+</html>
